@@ -1,0 +1,20 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+group = 'com.matteoveroni'
+version = '1.0.0'
+
+gradlePlugin {
+    website = "https://www.matteoveroni.com/"
+    vcsUrl = "https://github.com/"
+    plugins {
+        create("bunGradlePlugin") {
+            id = "com.matteoveroni.bun_gradle_plugin"
+            implementationClass = "com.matteoveroni.bun_gradle_plugin.gradle.plugins.BunFrontendPlugin"
+            displayName = "Gradle Bun Plugin"
+            description = ""
+            tags.set(["bun", "bun plugin", "bun gradle plugin", "gradle", "frontend", "plugin"])
+        }
+    }
+}
