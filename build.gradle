@@ -12,7 +12,7 @@ gradlePlugin {
         create("bunGradlePlugin") {
             id = "com.github.mavek87.bun-gradle-plugin"
             implementationClass = "com.matteoveroni.bun_gradle_plugin.gradle.plugins.BunFrontendPlugin"
-            displayName = "Gradle Bun Plugin"
+            displayName = "Bun Gradle Plugin"
             description = "Gradle plugin to interact with Bun"
             tags.set(["bun", "bun plugin", "bun gradle plugin", "gradle", "frontend", "plugin"])
         }
