@@ -10,10 +10,10 @@ gradlePlugin {
     vcsUrl = "https://github.com/"
     plugins {
         create("bunGradlePlugin") {
-            id = "com.matteoveroni.bun_gradle_plugin"
+            id = "com.github.mavek87.bun-gradle-plugin"
             implementationClass = "com.matteoveroni.bun_gradle_plugin.gradle.plugins.BunFrontendPlugin"
             displayName = "Gradle Bun Plugin"
-            description = ""
+            description = "Gradle plugin to interact with Bun"
             tags.set(["bun", "bun plugin", "bun gradle plugin", "gradle", "frontend", "plugin"])
         }
     }
