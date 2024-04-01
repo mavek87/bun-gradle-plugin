@@ -70,3 +70,17 @@ bun {
     }
 }
 ```
+
+### How to run the tasks
+
+You can run the tasks of the previous example by using your IDE or by typing for example:
+
+```gradle
+./gradlew bun_run_clean
+```
+
+or
+
+```gradle
+./gradlew bun_run_check-build
+```
