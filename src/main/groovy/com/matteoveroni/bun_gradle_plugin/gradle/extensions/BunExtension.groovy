@@ -7,6 +7,8 @@ import org.gradle.api.tasks.Exec
 
 import static com.matteoveroni.bun_gradle_plugin.gradle.plugins.BunFrontendPlugin.TASK_NAME_INSTALL_BUN_IF_NEEDED
 
+// https://mbonnin.hashnode.dev/my-life-after-afterevaluate
+
 @Slf4j
 class BunExtension {
 
