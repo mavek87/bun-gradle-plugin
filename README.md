@@ -28,7 +28,7 @@ pluginManagement {
 **build.gradle**
 ```gradle
 plugins {
-    id "com.github.mavek87.bun-gradle-plugin" version "8644649ff1"
+    id "com.github.mavek87.bun-gradle-plugin" version "fde1118f38"
 }
 ```
 
