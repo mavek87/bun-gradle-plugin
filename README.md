@@ -23,6 +23,7 @@ pluginManagement {
         gradlePluginPortal()
         maven { url "https://jitpack.io" }
     }
+}
 ```
 
 **build.gradle**
