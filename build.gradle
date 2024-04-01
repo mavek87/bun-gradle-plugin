@@ -7,7 +7,7 @@ version = '1.0.0'
 
 gradlePlugin {
     website = "https://www.matteoveroni.com/"
-    vcsUrl = "https://github.com/"
+    vcsUrl = "https://github.com/mavek87/bun-gradle-plugin"
     plugins {
         create("bunGradlePlugin") {
             id = "com.github.mavek87.bun-gradle-plugin"
